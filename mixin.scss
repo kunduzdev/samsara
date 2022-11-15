@@ -1,0 +1,26 @@
+@mixin df{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin btn{
+  font-weight: 600;
+  font-size: 14px;
+  padding: 10px 25px;
+  background: #F57059;
+  border-radius: 10px;
+  transition: .4s;
+  &:hover{
+   transform: scale(1.1);
+    background: transparent;
+    color: #000000;
+  }
+}
+@mixin input{
+  width: 371px;
+  height: 60px;
+  background: #F2F3F4;
+  opacity: 0.2;
+  border-radius: 5px;
+}
